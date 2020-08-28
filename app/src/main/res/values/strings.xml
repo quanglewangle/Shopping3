@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidCombiningTabLayoutAndListViewActivity!</string>
+    <string name="app_name">Shopping5</string>
+    <string name="quantity">Notes</string>
+    <string name="edit">Edit description</string>
+    <string name="change_aisle">Change aisle</string>
+    <string name="description">Description</string>
+    <string name="aisle">Aisle</string>
+    <string name="returnToCupboard">Return to cupboard</string>
+    <string name="note">note</string>
+    <string name="cupboard_form_title">Edit product</string>
+    <string name="product_name_hint">Type product name</string>
+    <string name="edit_product_name_label">Name</string>
+    <string name="edit_description_label">Description</string>
+    <string name="edit_notes_label">Note/Quantity</string>
+    <string name="product_notes_hint">Note or quantity</string>
+    <string name="product_location_hint">Aisle</string>
+    <string name="edit_location_label">Aisle</string>
+    <string name="product_done">Done</string>
+    <string name="feedbackbutton">OK</string>
+
+</resources>

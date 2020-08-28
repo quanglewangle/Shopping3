@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/quantity"
+                android:title="@string/quantity" />
+            <item android:id="@+id/description"
+                android:title="@string/description"
+                app:showAsAction="ifRoom" />
+            <item android:id="@+id/aisle"
+                android:title="@string/aisle"
+                app:showAsAction="ifRoom" />
+            <item android:id="@+id/returnToCupboard"
+                android:title="@string/returnToCupboard"
+                app:showAsAction="ifRoom" />
+
+    </menu>
