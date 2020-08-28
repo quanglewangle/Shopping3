@@ -35,7 +35,7 @@ public class BasketActivity extends ListActivity implements AsyncTaskCompleteLis
         super.onResume();
         setContentView(R.layout.basket_list);
         LoadURL loadUrl = new LoadURL(BasketActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=dumpFiltered&curBasket=3"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=dumpFiltered&curBasket=3"});
     }
 
     @Override
@@ -88,7 +88,7 @@ public class BasketActivity extends ListActivity implements AsyncTaskCompleteLis
         //     final WebChangeBasketStatus webrequest = new WebChangeBasketStatus((WebChangeBasketStatus.download_complete)this);
         //    webrequest.doRequest("http://fimblefowl.co.uk/json?cmd=ubT&basket=2&product_id=" + o.get("id"));
         LoadURL loadUrl = new LoadURL(BasketActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=ubT&newBasket=1&product_id=" + o.get("id") + "&curBasket=3"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=ubT&newBasket=1&product_id=" + o.get("id") + "&curBasket=3"});
     }
 
 }

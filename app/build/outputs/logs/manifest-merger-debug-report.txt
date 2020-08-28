@@ -34,7 +34,7 @@ INJECTED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidMa
 INJECTED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:2:1-39:12
 INJECTED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:3:5-42
+		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:3:5-48
 		INJECTED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -63,7 +63,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/peter/.gradle
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:9:9-41
 	android:icon
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:8:9-45
-activity#com.quanglewangle.shopping3.AndroidTabAndListView
+activity#com.quanglewangle.peter.shopping3.AndroidTabAndListView
 ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:12:9-24:20
 	android:label
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:18:13-45
@@ -81,15 +81,15 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:22:27-74
-activity#com.quanglewangle.shopping3.CupboardActivity
+activity#com.quanglewangle.peter.shopping3.CupboardActivity
 ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:27:9-54
 	android:name
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:27:19-51
-activity#com.quanglewangle.shopping3.ListActivity
+activity#com.quanglewangle.peter.shopping3.ListActivity
 ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:30:9-50
 	android:name
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:30:19-47
-activity#com.quanglewangle.shopping3.BasketActivity
+activity#com.quanglewangle.peter.shopping3.BasketActivity
 ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:33:9-52
 	android:name
 		ADDED from /home/peter/AndroidStudioProjects/Shopping3/app/src/main/AndroidManifest.xml:33:19-49

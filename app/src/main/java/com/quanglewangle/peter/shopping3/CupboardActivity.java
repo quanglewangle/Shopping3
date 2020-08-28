@@ -46,7 +46,7 @@ public class CupboardActivity extends ListActivity implements AsyncTaskCompleteL
         super.onResume();
         setContentView(R.layout.cupboard_list);
         LoadURL loadUrl = new LoadURL(CupboardActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=dumpFiltered&curBasket=1"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=dumpFiltered&curBasket=1"});
     }
 
     @Override
@@ -128,7 +128,7 @@ public class CupboardActivity extends ListActivity implements AsyncTaskCompleteL
                         Toast.makeText(getApplicationContext(), "Dialog got:" + value, Toast.LENGTH_SHORT).show();
                         Map o = (HashMap<String, String>) products.get(listPosition);
                         LoadURL loadUrl = new LoadURL(CupboardActivity.this);
-                        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=uBd&newDescription="+value+ "&product_id=" + o.get("id")});
+                        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=uBd&newDescription="+value+ "&product_id=" + o.get("id")});
 
                         return;
                     }
@@ -197,7 +197,7 @@ public class CupboardActivity extends ListActivity implements AsyncTaskCompleteL
 
         Map o = (HashMap<String, String>) this.getListAdapter().getItem(position);
         LoadURL loadUrl = new LoadURL(CupboardActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=ubT&newBasket=2&product_id=" + o.get("id") + "&curBasket=1"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=ubT&newBasket=2&product_id=" + o.get("id") + "&curBasket=1"});
     }
 
     public void sendForm(View view) {

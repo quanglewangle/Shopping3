@@ -35,7 +35,7 @@ public class ListActivity extends android.app.ListActivity implements AsyncTaskC
         super.onResume();
         setContentView(R.layout.cupboard_list);
         LoadURL loadUrl = new LoadURL(ListActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=dumpFiltered&curBasket=2"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=dumpFiltered&curBasket=2"});
     }
 
     @Override
@@ -89,7 +89,7 @@ public class ListActivity extends android.app.ListActivity implements AsyncTaskC
         //     final WebChangeBasketStatus webrequest = new WebChangeBasketStatus((WebChangeBasketStatus.download_complete)this);
         //    webrequest.doRequest("http://fimblefowl.co.uk/json?cmd=ubT&basket=2&product_id=" + o.get("id"));
         LoadURL loadUrl = new LoadURL(ListActivity.this);
-        loadUrl.execute(new String[]{"http://fimblefowl.co.uk/json?cmd=ubT&newBasket=3&product_id=" + o.get("id") + "&curBasket=2"});
+        loadUrl.execute(new String[]{Constants.SHOPPING_URL+"?cmd=ubT&newBasket=3&product_id=" + o.get("id") + "&curBasket=2"});
     }
 
 }

@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:testOnly="true" >
         <activity
-            android:name="com.quanglewangle.shopping3.AndroidTabAndListView"
+            android:name="com.quanglewangle.peter.shopping3.AndroidTabAndListView"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name" >
             <intent-filter>
@@ -33,13 +33,13 @@
         </activity>
 
         <!-- Inbox Activity -->
-        <activity android:name="com.quanglewangle.shopping3.CupboardActivity" />
+        <activity android:name="com.quanglewangle.peter.shopping3.CupboardActivity" />
 
         <!-- Outbox Activity -->
-        <activity android:name="com.quanglewangle.shopping3.ListActivity" />
+        <activity android:name="com.quanglewangle.peter.shopping3.ListActivity" />
 
         <!-- Profile Activity -->
-        <activity android:name="com.quanglewangle.shopping3.BasketActivity" />
+        <activity android:name="com.quanglewangle.peter.shopping3.BasketActivity" />
     </application>
 
 </manifest>
