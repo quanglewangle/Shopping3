@@ -26,6 +26,7 @@ public class AndroidTabAndListView extends TabActivity {
         // Tab Icon
         inboxSpec.setIndicator(INBOX_SPEC, getResources().getDrawable(R.drawable.icon_inbox));
         Intent inboxIntent = new Intent(this, CupboardActivity.class);
+        inboxIntent.putExtra("firstKeyName","FirstKeyValue");
         // Tab Content
         inboxSpec.setContent(inboxIntent);
 

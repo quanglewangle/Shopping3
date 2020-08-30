@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ContextMenu;
@@ -36,7 +37,12 @@ public class CupboardActivity extends ListActivity implements AsyncTaskCompleteL
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("PETER", "in main acc");
+
+        Log.d("PETER", "in CupboardActivity ocCreate");
+        Intent myIntent = getIntent(); // gets the previously created intent
+        String firstKeyName = myIntent.getStringExtra("firstKeyName");
+
+        Log.d("PETER", "intent parameter " + firstKeyName);
         //	setContentView(R.layout.activity_main);
         setContentView(R.layout.cupboard_list);
     }
